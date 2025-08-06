@@ -565,16 +565,28 @@ footer {
 
     .burger-bar {
         display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
         z-index: 1000;
-        border: 2px solid red;
     }
-    
+
+    .burger-bar-icon {
+        display: block;
+        width: 30px; /* Tambahkan ukuran agar bisa tampil */
+        height: auto;
+     }
+
     .burger-bar-menu {
         position: absolute;
         top: 60px;
         right: 20px;
         width: 200px;
-    }
+        display: none; /* Biar default tersembunyi */
+        background-color: white; /* opsional agar terlihat */
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* opsional */
+        z-index: 999;
+     }
 
     .main-bg-text h1{
         font-size: 20px;
@@ -623,6 +635,7 @@ footer {
     }
 
 }
+
 
 
 
