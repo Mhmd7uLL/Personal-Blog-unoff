@@ -534,46 +534,7 @@ footer {
 
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-links {
-        visibility: hidden;
-        padding-right: 0;
-    }
-
-    .burger-bar {
-        display: block;
-    }
-
-    .burger-bar-menu {
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        width: 200px;
-    }
-
-    .main-bg-text h1{
-        font-size: 40px;
-    }
-
-    .main-bg-photo, .inner-photo, .inner-photo-project {
-        width: 100%;
-        height: auto;
-    }
-
-    .inner-content, .inner-content-project {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 @media (max-width: 768px) {
-    body{
-        width: 100%;
-    }
     .navbar {
         flex-direction: row;
         width: 100%;
@@ -677,5 +638,6 @@ footer {
         grid-template-columns: 1fr; 
     }
 }
+
 
 
