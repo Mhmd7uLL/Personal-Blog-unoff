@@ -634,7 +634,21 @@ footer {
         grid-template-columns: 1fr; 
     }
 
+    .creator-name {
+        font-size: 10px;
+    }
+
+    .social-med img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .copyright {
+        font-size: 5px;
+    }    
+
 }
+
 
 
 
