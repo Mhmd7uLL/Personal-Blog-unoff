@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    max-width: 100%;
     padding: 20px;
     background-color: #0f0f0f;
     border-radius: 8px;
@@ -101,6 +102,9 @@ header {
   border-radius: 8px;
   box-shadow: 0 8px 10px rgba(182, 182, 182, 0.2);
   padding: 30px;
+  width: 100%;
+  right: 0;
+  box-sizing: border-box;
 
   /* Animasi menu burger */
   visibility: hidden;
@@ -189,6 +193,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 80%;
+    max-width: 100%;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 7px 50px 0 rgba(182, 182, 182, 0.2);
@@ -638,6 +643,7 @@ footer {
         grid-template-columns: 1fr; 
     }
 }
+
 
 
 
