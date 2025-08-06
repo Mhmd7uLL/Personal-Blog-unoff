@@ -603,6 +603,10 @@ footer {
         justify-content: center;
     }
 
+    .title1 {
+        font-size: 20px;
+    }
+
     .inner-photo{
         width: 100%;
         height: auto;
@@ -648,6 +652,7 @@ footer {
     }    
 
 }
+
 
 
 
