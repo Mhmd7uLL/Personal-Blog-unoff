@@ -553,8 +553,7 @@ footer {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
-        max-width: 100%;
-        width: 80%;
+        width: 100%;
     }
 
     .nav-links {
@@ -620,6 +619,7 @@ footer {
     }
 
 }
+
 
 
 
