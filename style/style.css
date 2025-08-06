@@ -528,4 +528,147 @@ footer {
     align-items: center;
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links {
+        visibility: hidden;
+        padding-right: 0;
+    }
+
+    .burger-bar {
+        display: block;
+    }
+
+    .burger-bar-menu {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+    }
+
+    .main-bg-text h1{
+        font-size: 40px;
+    }
+
+    .main-bg-photo, .inner-photo, .inner-photo-project {
+        width: 100%;
+        height: auto;
+    }
+
+    .inner-content, .inner-content-project {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .nav-links {
+        visibility: hidden;
+        padding-right: 0;
+    }
+
+    .burger-bar {
+        display: block;
+    }
+
+    .burger-bar-menu {
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+    }
+
+    .main-bg-text h1{
+        font-size: 30px;
+    }
+
+    .main-bg-photo, .inner-photo, .inner-photo-project {
+        width: 100%;
+        height: auto;
+    }
+
+    .inner-content, .inner-content-project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-photo{
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+    }
+
+    .inner-photo img {
+        width: 70%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    
+    .inner-photo-project {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .inner-photo-project img {
+        width: 70%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .education {
+        grid-template-columns: 1fr; 
+    }
+
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-links {
+        visibility: hidden;
+        padding-right: 0;
+    }
+
+    .burger-bar-menu {
+        width: 100%;
+        top: 50px;
+    }
+
+    .main-bg-text h1 {
+        font-size: 20px;
+    }
+
+    .inner-content, .inner-content-project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-photo, .inner-photo-project {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+    }
+
+    .education {
+        grid-template-columns: 1fr; 
+    }
 }
