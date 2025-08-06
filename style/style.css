@@ -566,6 +566,7 @@ footer {
     .burger-bar {
         display: block;
         z-index: 1000;
+        border: 2px solid red;
     }
     
     .burger-bar-menu {
@@ -622,6 +623,7 @@ footer {
     }
 
 }
+
 
 
 
