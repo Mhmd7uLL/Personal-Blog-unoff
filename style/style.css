@@ -561,10 +561,6 @@ footer {
         padding-right: 0;
     }
 
-    .burger-bar {
-        display: block;
-    }
-
     .burger-bar-menu {
         position: absolute;
         top: 60px;
@@ -573,7 +569,7 @@ footer {
     }
 
     .main-bg-text h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .main-bg-photo, .inner-photo, .inner-photo-project {
@@ -619,6 +615,7 @@ footer {
     }
 
 }
+
 
 
 
