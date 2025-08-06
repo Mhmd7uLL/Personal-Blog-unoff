@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #0f0f0f;
+    box-sizing: border-box;
 }
 
 header {
@@ -606,6 +607,7 @@ footer {
     .inner-content, .inner-content-project {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .inner-photo{
@@ -675,4 +677,5 @@ footer {
         grid-template-columns: 1fr; 
     }
 }
+
 
