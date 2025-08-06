@@ -567,10 +567,6 @@ footer {
         display: block;
         z-index: 1000;
     }
-
-    .burger-bar-icon {
-        display: block;
-    }
     
     .burger-bar-menu {
         position: absolute;
@@ -626,6 +622,7 @@ footer {
     }
 
 }
+
 
 
 
