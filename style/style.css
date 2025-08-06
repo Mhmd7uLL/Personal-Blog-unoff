@@ -554,6 +554,10 @@ footer {
         width: 100%;
     }
 
+    .nav-btn-home h1{
+        font-size: 20px;
+    }
+    
     .nav-links {
         visibility: hidden;
         padding-right: 0;
@@ -622,6 +626,7 @@ footer {
     }
 
 }
+
 
 
 
