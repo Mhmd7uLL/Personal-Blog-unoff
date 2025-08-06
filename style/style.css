@@ -542,7 +542,8 @@ footer {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
-        width: 100%;
+        max-width: 100%;
+        width: 80%;
     }
 
     .nav-links {
@@ -608,41 +609,7 @@ footer {
     }
 
 }
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: row;
-        align-items: center;
-    }
 
-    .nav-links {
-        visibility: hidden;
-        padding-right: 0;
-    }
-
-    .burger-bar-menu {
-        width: 100%;
-        top: 50px;
-    }
-
-    .main-bg-text h1 {
-        font-size: 20px;
-    }
-
-    .inner-content, .inner-content-project {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .inner-photo, .inner-photo-project {
-        width: 100%;
-        height: auto;
-        padding-right: 0;
-    }
-
-    .education {
-        grid-template-columns: 1fr; 
-    }
-}
 
 
 
