@@ -1,6 +1,6 @@
 # Personal Blog
 
-**Personal Blog** adalah sebuah website portofolio sederhana yang dikembangkan oleh [Mhmd7uLL](https://github.com/Mhmd7uLL). Website ini berfungsi sebagai blog personal untuk menampilkan profil, pendidikan, dan kumpulan proyek yang telah dikerjakan.
+Website portofolio sederhana yang berfungsi sebagai blog personal untuk menampilkan profil, pendidikan, dan kumpulan proyek yang telah dikerjakan.
 
 Demo: [https://mhmd7ull-blog.vercel.app](https://mhmd7ull-blog.vercel.app)
 
