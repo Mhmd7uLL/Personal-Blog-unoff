@@ -468,6 +468,17 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/*     TECH STACK     */
+.tech-stack {
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-stack img {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
 
 footer {
     display: flex;
@@ -651,7 +662,12 @@ footer {
         font-size: 5px;
     }    
 
+    .tech-stack img {
+        width: 30px;
+        height: 30px;
+    }
 }
+
 
 
 
