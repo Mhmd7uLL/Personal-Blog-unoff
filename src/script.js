@@ -31,6 +31,7 @@ document.addEventListener('click', (e) => {
 const sections = document.querySelectorAll('.title, .inner-content');
 const innerContents = document.querySelectorAll('.title1, .inner-content-project');
 const educationSection = document.querySelectorAll('.education');
+const techStack = document.querySelectorAll('.tech-stack');
 let lastScrollY = window.scrollY;
 
 function handleScroll() {
@@ -72,6 +73,18 @@ function handleScroll() {
             education.classList.remove('show');
         }
     });
+
+    // tech-stack class animation
+    techStack.forEach(tech => {
+        const techTop = tech.getBoundingClientRect().top + window.scrollY;
+        const techHeight = tech.offsetHeight;
+        if (window.scrollY + window.innerHeight > techTop + techHeight / 2) {
+            tech.classList.add('show');
+        } else {
+            tech.classList.remove('show');
+        }
+    });
 }
 
 window.addEventListener('scroll', handleScroll);
+
