@@ -368,7 +368,7 @@ main {
 .tech-stack {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 50%); 
+    grid-template-columns: repeat(3, 40%); 
     gap: 20px;
     padding: 4rem 0 4rem 0;
 
@@ -402,8 +402,8 @@ main {
 }
 
 .tech-logo {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -615,6 +615,7 @@ footer {
     }
 
 }
+
 
 
 
