@@ -368,7 +368,7 @@ main {
 .tech-stack {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 50%); 
+    grid-template-columns: repeat(4, 40%); 
     gap: 20px;
     padding: 4rem 0 4rem 0;
 
@@ -614,5 +614,6 @@ footer {
     }
 
 }
+
 
 
